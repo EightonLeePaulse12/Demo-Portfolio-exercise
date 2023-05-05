@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container-fluid{
+    background-color: black;
+    margin-top:0;
+    padding-top:0;
+}
+
+.navbar{
+    padding-top:0 !important;
+    position:fixed;
+}
+
+.lagos{
+    width:150px;
+    height:150px;
+}
+
+
+navbar .yes{
+    justify-content: space-between !important;
+    vertical-align: right !important;
+}
+
+.yes li{
+    font-weight:700;
+    font-size:19px;
+}
+
+
+.goku{
+    position:relative;
+    right:-750px !important;
+}
+
+.goku ul li a{
+    color:white;
+}
+
+.goku ul li a:hover{
+    color:red;
+    border-radius: 5px;
+    border:1px solid red;
+}
+
+.d-flex{
+    position:relative;
+    left:-725px;
+    margin-left:5px;
+}
+
+
+.mybutton{
+    width:85px;
+    color:white !important;
+    border:white !important;
+}
+
+.mybutton:hover{
+    border:red !important;
+    background-color: red !important;
+}
+
+.mybutton:hover{
+    color:#d83a39;
+}
+
+/*main*/
+.mainsection{
+    margin-top:40px;
+    margin-bottom:40px;
+    height:600px;
+}
+
+.yesboi{
+    color:white;
+    font-size:62px;
+    font-weight:700;
+    margin-top:75px;
+}
+
+.noboi{
+    color:red;
+    position:relative;
+    left:-50px;
+    font-weight:800;
+}
+
+
+.myimage{
+    width:450px;
+    height:450px;
+    object-fit: contain;
+    margin-top:50px;
+}
+
+
+.mypara{
+    color:rgb(243, 232, 232);
+    font-weight:bold;
+    position:relative;
+    left:-10px;
+}
+
+.theline{
+    height:10px;
+    color:white;
+}
+
+.copyright{
+    color:white;
+    position:relative;
+    top:-25px;
+    text-decoration:underline;
+}
+
+/*FOOTER*/
+.grid{
+    color:white;
+    display:flex;
+    display:inline block;
+    position:relative;
+    right:-1000px;
+    right:-1350px;
+}
+
+.fa-whatsapp{
+    text-decoration:none;
+    color:green;
+}
+
+.text-center{
+    color:white;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.form-label{
+    color:white;
+}
+
+.btn-dark{
+    color:black !important;
+    background-color: white !important;
+}
+
+.btn-dark:hover{
+    background-color: red !important;
+    color:white !important;
+}
+
+.ranout{
+    color:white;
+}
